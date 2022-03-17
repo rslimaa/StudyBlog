@@ -1,0 +1,80 @@
+body {
+  margin: 0rem;
+  background: #faf3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.topo {
+  background: linear-gradient(to right, #574ae8, #3ea1db);
+  color: #fff;
+  height: 209px;
+  padding-top: 41px;
+}
+
+h2 {
+  font-size: 26px;
+  color: black;
+}
+
+.grid span,
+p {
+  font-size: 18px;
+  color: #717171;
+}
+
+.grid {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 4px;
+  max-width: 900px;
+  position: relative;
+  width: 100%;
+}
+.grid img {
+  opacity: 0.4;
+  position: absolute;
+  right: 10px;
+}
+
+.grid img:hover {
+  opacity: 1;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+
+.search input {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 100%;
+  height: 65px;
+  padding-left: 60px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.search img {
+  position: absolute;
+  padding: 20px;
+}
+
+.search input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
